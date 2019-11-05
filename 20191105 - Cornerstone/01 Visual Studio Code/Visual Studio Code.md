@@ -134,36 +134,38 @@ Vi kan styra utseendet på Visual Studio Code med teman.
 
     Hjälper till med editering av markdown
 
-
 ## PowerShell
+    
+När vi har installerat PowerShell extensionen har vi stöd för PowerShell om vi öppnar ps1 filer.
 
-    När vi har installerat PowerShell extensionen har vi stöd för PowerShell om vi öppnar ps1 filer.
+Dock får vi inte PowerShell stödet laddat för nya filer automatiskt.
 
-    Dock får vi inte PowerShell stödet laddat för nya filer automatiskt.
+Om vi väljer "New File" så får vi en untitle text file som standard.
 
-    Om vi väljer "New File" så får vi en untitle text file som standard.
+Om vi då försöker att skriva t ex Get- så händer ingenting.
 
-    Om vi då försöker att skriva t ex Get- så händer ingenting.
+Vi får då gå ner till höger där det står text file.
+Klicka på den och skriva PowerShell.
 
-    Vi får då gå ner till höger där det står text file.
-    Klicka på den och skriva PowerShell.
+Om vi nu skriver Get- så får vi upp förslag på cmdlets.
+Om vi vill ha mer information, om syntax så får vi tryck på Ctrl + mellanslag. Samma för att få bort extra informationen.
 
-    Om vi nu skriver Get- så får vi upp förslag på cmdlets. Om vi vill ha mer information, om syntax så får vi tryck på Ctrl + mellanslag. Samma för att få bort extra informationen.
+Om vi nu kommer att använda Visual Studio Code till att skapa PowerShell skript
+i de flesta fall så kan vi välja PowerShell som Defaul Language. Så att vi slipper välja det för varje "New File".
 
-    Om vi nu kommer att använda Visual Studio Code till att skapa PowerShell skript i de flesta fall så kan vi välja PowerShell som Defaul Language. Så att vi slipper välja det för varje "New File".
+Tryck på Shift + Ctrl + P för "Command Palette" eller klicka på kugghjulet nere till vänster (Manage)och välj Command Palette.
 
-    Tryck på Shift + Ctrl + P för "Command Palette" eller klicka på kugghjulet nere till vänster (Manage)och välj Command Palette.
+Skriv User i sökrutan. Välj Preferences: Open User Settings.
 
-    Skriv User i sökrutan. Välj Preferences: Open User Settings.
+Skriv "Default language" i sökrutan.
 
-    Skriv "Default language" i sökrutan.
+Leta upp Files: Default Language.
+Skriv "powershell" i rutan.
+Fungerar inte med "PowerShell".
 
-    Leta upp Files: Default Language.
-    Skriv "powershell" i rutan.
-    Fungerar inte med "PowerShell".
-
-    Om man stänger ner Visual Studio Code nu eller
-    startar om sessionen genom att trycka Shift + Ctrl + P, skriver restart och väljer "PowerShell: Restart Current Session" så ska PowerShell vara standard vi nya filer.
+Om man stänger ner Visual Studio Code nu eller
+startar om sessionen genom att trycka Shift + Ctrl + P,
+skriver restart och väljer "PowerShell: Restart Current Session" så ska PowerShell vara standard vi nya filer.
 
 ## Snippets
 
