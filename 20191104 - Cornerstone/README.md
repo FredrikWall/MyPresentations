@@ -11,9 +11,9 @@ Exemplen / Körschemat kommer att uppdateras / Läggas ut inom någon dag.
 
 Get-SpeakerInformation -Speaker "Fredrik Wall" -ShortVersion
 
-Name:       Fredrik Wall
-Alias:      Dalle
-Mail:       fredrik@poweradmin.se
-Twitter:    @walle75
-Blog:       https://fredrikwall.se
+Name:       Fredrik Wall  
+Alias:      Dalle  
+Mail:       fredrik@poweradmin.se  
+Twitter:    @walle75  
+Blog:       https://fredrikwall.se  
 GitHub:     https://github.com/FredrikWall
