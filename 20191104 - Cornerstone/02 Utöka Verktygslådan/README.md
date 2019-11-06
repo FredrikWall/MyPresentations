@@ -4,4 +4,4 @@
 
 .pptx för presentation
 
-.md för körschemat / exempel (Kommer uppdateras inom kort)
+.md för körschemat / exempel
